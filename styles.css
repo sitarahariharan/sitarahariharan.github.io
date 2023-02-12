@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+body {
+  background-color: #273933;
+  color: white;
+  font-family: Arial;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Patua One", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+}
+
+.coloredBanner {
+  background-color: #d47912;
+  overflow: hidden;
+  overflow-x: hidden;
+  margin: 0 -9999rem;
+  padding: 60px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0.05px 0.05px 10px 1px #000000;
+}
+
+.navbar-color {
+  background-color: #d47912;
+}
+
+a {
+  color: #d47912;
+}
+
+a:hover {
+  color: #e2b27a;
+}
+
+.floatLeft {
+  float: left;
+  margin: 0 300px 0 0;
+}
+
+.floatRight {
+  float: right;
+  margin: 0 50px 0 0;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.homeFont {
+  font-family: "Patua One", sans-serif;
+}
+
+.homeText {
+  font-family: "Patua One", sans-serif;
+  font-size: "50px";
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  margin-right: auto;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: 40%;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.comingSoon {
+  font-family: "Rubik Glitch", cursive;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.box {
+  border-radius: 25px;
+  background: #445f56;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+.left {
+  display: table-cell;
+  width: 49%;
+  height: 200px;
+  margin: 25px;
+}
+
+.mid {
+  display: table-cell;
+  width: 2%;
+  height: 200px;
+  margin: 25px;
+}
+
+.right {
+  display: table-cell;
+  width: 49%;
+  height: 200px;
+  margin: 25px;
+}
+
+#free {
+  padding-bottom: 30px;
+}
